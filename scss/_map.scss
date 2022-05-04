@@ -1,0 +1,7 @@
+$estilos: (
+  color: #59B5FF,
+  centro: center,
+  white: #FFFFFF
+);
+
+$return: map-remove($estilos, white);

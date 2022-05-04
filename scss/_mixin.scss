@@ -1,0 +1,8 @@
+@mixin container($ancho, $alto, $color) {
+  width: $ancho;
+  height: $alto;
+  background-color: $color;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}

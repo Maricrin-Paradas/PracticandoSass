@@ -1,0 +1,46 @@
+.btn_pastel, .btn_verde, .btn_brillate {
+  width: 1rem;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: #FFFFFF;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+div {
+  background-color: #59B5FF;
+  text-align: center;
+  padding: 2rem;
+}
+
+.btn_brillate {
+  width: 10rem;
+  height: 10rem;
+  background-color: #53d333;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.btn_verde {
+  width: 10rem;
+  height: 10rem;
+  background-color: #33D374;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.btn_pastel {
+  width: 10rem;
+  height: 10rem;
+  background-color: #b8f0ce;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

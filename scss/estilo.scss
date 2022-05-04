@@ -1,0 +1,24 @@
+@import "mixin";
+@import "map";
+@import "extend";
+
+div {
+  background-color: map-get($return, color);
+  text-align: map-get($return, centro);
+  color: map-get($return, white);
+  padding: 2rem;
+}
+
+.btn_brillate {
+  @extend %btn;
+  @include container( 10rem, 10rem, #53d333)
+}
+.btn_verde {
+  @extend %btn;
+  @include container(10rem, 10rem, #33D374)
+}
+.btn_pastel{
+  @extend %btn;
+  @include container(10rem, 10rem, #b8f0ce)
+}
+
